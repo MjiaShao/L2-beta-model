@@ -69,15 +69,15 @@ Before running our code, please:
 
 <h3>To reproduce data example 2a results in Section 6.2.1:</h3>
 
-1. Preparation: obtain data in https://www.kaggle.com/datasets/group16/covid19-literature-knowledge-graph
-and place it in 'data' folder; (metadata)
+1. Preparation: obtain data in https://www.kaggle.com/datasets/group16/covid19-literature-knowledge-graph, unzip it and place it as 'kg.nt.original' in 'data' folder;
+and download 'metadata.csv' from https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge
 2. Run 'data_example2_kaggle_preprocessing.py' to preprocess data and save them as 'kg_Table.txt' and 'kg_in_cord19.txt' in 'data' folder;
 3. Run 'data_example2_kaggle_beta_esti.m' to reproduce Left plot 1 & 2 in Figure 7 and get results for the next steps;
 4. Run 'plot_data_example2_kaggle.m' to reproduce Figure 8 and Table 6. 
 
 <h3>To reproduce data example 2b results in Section 6.2.2:</h3>
 
-1. Preparation: search https://dj2taa9i652rf.cloudfront.net/ and save data in 'covid_knowledge_graph/csv' folder into local 'data' folder; (metadata)
+1. Preparation: search https://dj2taa9i652rf.cloudfront.net/ and save data in 'covid_knowledge_graph/csv' folder into local 'data' folder;
 2. Run 'data_example2_aws_preprocessing.py' to preprocess data and save them as 'deg_vec.txt' in 'data' folder;
 3. Run 'data_example2_aws_beta_esti.m' and get results for the next steps;
 4. Run 'plot_data_example2_aws.m' to reproduce Left plot 1 & 2 in Figure 7;
