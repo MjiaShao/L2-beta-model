@@ -29,6 +29,7 @@ for iii in range(len(from_list)):
 
 deg_vec = list(deg_dict.values())
 
+N = len(deg_vec)
 with open('data/deg_vec.txt','w') as wt:
     for ii in range(N):
         _ = wt.write('%d\n'%(deg_vec[ii]));

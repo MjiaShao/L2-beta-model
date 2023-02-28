@@ -1,7 +1,7 @@
 lambda_vec = [0,1,2.5,5,10,20,40,80, 160, 320, 640,1280];
 for lambda = lambda_vec
-iter = 30;
-deg_vec = readmatrix('./data/AWS-csv/deg_vec.txt');
+iter = 3*10^4;
+deg_vec = readmatrix('./data/deg_vec.txt');
 deg_vec(deg_vec<=0) = [];
 n = length(deg_vec);   
 stepsize = 1;

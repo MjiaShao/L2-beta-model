@@ -9,7 +9,7 @@ from numpy import linalg as LA
 import pandas as pd
 
 node_list_df = pd.read_csv('./data/AWS-csv/nodes/paper_nodes.csv')
-node_deg_df = pd.read_csv('./data/AWS-csv/deg_vec.txt', header=None)
+node_deg_df = pd.read_csv('./data/deg_vec.txt', header=None)
 beta_est_df = pd.read_csv('./results/aws_beta_est.txt', header=None)
 deg_vec = node_deg_df.values
 node_name_list = node_list_df['~id']

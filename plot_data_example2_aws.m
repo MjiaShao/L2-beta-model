@@ -1,5 +1,5 @@
 clear
-deg_vec = readmatrix('./data/AWS-csv/deg_vec.txt');
+deg_vec = readmatrix('./data/deg_vec.txt');
 deg_vec(deg_vec<=0) = [];
 d_tab = tabulate(deg_vec);   
 d_tab(d_tab(:,2)==0,:) = [];
