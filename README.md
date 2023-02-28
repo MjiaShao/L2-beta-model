@@ -43,7 +43,7 @@ Before running our code, please:
 <h3>To reproduce simulations 1 results in Sections 5.1:</h3>
 
 1. Run 'simulation_1_part1a.m' to reproduce Row 1 of Figure 1;
-2. Run 'simulation_1_part1b.m' to reproduce Row 1 & 2 of Figure 1;
+2. Run 'simulation_1_part1b.m' to reproduce Row 2 & 3 of Figure 1;
 2. Run 'simulation_1_part2.m' to reproduce Figure 2 & 3;
 
 <h3>To reproduce simulations 2 results in Sections 5.2:</h3>
