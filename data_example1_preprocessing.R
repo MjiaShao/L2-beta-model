@@ -31,8 +31,8 @@ data_2019_09 = data_2019_09[new_index_combined,];
 data_2020_04 = data_2020_04[new_index_combined,];
 extraversion_new = extraversion_new[new_index_combined];
 
-write.table(data_2019_09, file='combined-2019-09.csv', col.names=FALSE, row.names=FALSE, sep=',');
-write.table(data_2020_04, file='combined-2020-04.csv', col.names=FALSE, row.names=FALSE, sep=',');
+write.table(data_2019_09, file='./data/combined-2019-09.csv', col.names=FALSE, row.names=FALSE, sep=',');
+write.table(data_2020_04, file='./data/combined-2020-04.csv', col.names=FALSE, row.names=FALSE, sep=',');
 write.table(extraversion_new, file='extraversion_new.csv', col.names=FALSE, row.names=FALSE, sep=',');
 
 # output separately marginal tables
@@ -42,8 +42,8 @@ data_2019_09 = cbind(index_2019_09, gender[index_2019_09], sept2019[, export_nam
 data_2019_09 = data_2019_09[complete.cases(data_2019_09),];
 extraversion_new = demographics[data_2019_09[,1], "extraversion"];
 
-write.table(data_2019_09, file='./results/marginal-2019-09.csv', col.names=FALSE, row.names=FALSE, sep=',');
-write.table(extraversion_new, file='./results/extraversion_new-2019-09.csv', col.names=FALSE, row.names=FALSE, sep=',');
+write.table(data_2019_09, file='./data/marginal-2019-09.csv', col.names=FALSE, row.names=FALSE, sep=',');
+write.table(extraversion_new, file='./data/extraversion_new-2019-09.csv', col.names=FALSE, row.names=FALSE, sep=',');
 
 
 index_2020_04 = april2020[, "studentindex"];
@@ -51,5 +51,5 @@ data_2020_04 = cbind(index_2020_04, gender[index_2020_04], april2020[, export_na
 data_2020_04 = data_2020_04[complete.cases(data_2020_04),];
 extraversion_new = demographics[data_2020_04[,1], "extraversion"];
 
-write.table(data_2020_04, file='./results/marginal-2020-04.csv', col.names=FALSE, row.names=FALSE, sep=',');
-write.table(extraversion_new, file='./results/extraversion_new-2020-04.csv', col.names=FALSE, row.names=FALSE, sep=',');
+write.table(data_2020_04, file='./data/marginal-2020-04.csv', col.names=FALSE, row.names=FALSE, sep=',');
+write.table(extraversion_new, file='./data/extraversion_new-2020-04.csv', col.names=FALSE, row.names=FALSE, sep=',');

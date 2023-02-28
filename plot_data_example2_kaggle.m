@@ -1,7 +1,5 @@
 
 clear
-%%%%%%%% data 2: Kaggle Kg_nt network
-% http://snap.stanford.edu/data/facebook-large-page-page-network.html
 
 DataName = "Kaggle_kg_nt";
 

@@ -1,5 +1,5 @@
 # data availability: https://dj2taa9i652rf.cloudfront.net/
-# covide_knowledge_graph/csv
+# covid_knowledge_graph/csv
 
 import sys
 import os
@@ -29,6 +29,6 @@ for iii in range(len(from_list)):
 
 deg_vec = list(deg_dict.values())
 
-with open('data/AWS-csv/deg_vec.txt','w') as wt:
+with open('data/deg_vec.txt','w') as wt:
     for ii in range(N):
         _ = wt.write('%d\n'%(deg_vec[ii]));
