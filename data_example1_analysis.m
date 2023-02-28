@@ -10,8 +10,8 @@ var_names = ["studentindex",...
 			"gender","depression","anxiety","stress","loneliness",...
 			"friend","p.interaction","multi-support"];
 
-Table_marginal_2019_09 = readmatrix('./data/student_loneliness/marginal-2019-09.csv');
-Table_marginal_2020_04 = readmatrix('./data/student_loneliness/marginal-2020-04.csv');
+Table_marginal_2019_09 = readmatrix('./data/marginal-2019-09.csv');
+Table_marginal_2020_04 = readmatrix('./data/marginal-2020-04.csv');
 
 
 Table_marginal_2019_09_temp = Table_marginal_2019_09;
@@ -64,6 +64,7 @@ lambda = lambdalist(lambdaindex);
     	output_marginal_2020_04(idx,icol,lambdaindex) = beta_est;
     end
 end
+save(sprintf("./results/mental_lambda_sensitivity"),'output_marginal_2019_09', 'output_marginal_2020_04', 'aic_2019_09', 'aic_2020_04')
 
 q = Table_marginal_2019_09(:,8:9)  > 0;
 idx19 = find(sum(q,2)==2);
@@ -119,7 +120,6 @@ output_marginal_2020_04(:,3:9) = normalize(output_marginal_2020_04(:,3:9),1);
 output_diff(:,3:9)    = normalize(output_diff(:,3:9),1);
 
 
-save(sprintf("./results/mental_lambda_sensitivity"),'output_marginal_2019_09', 'output_marginal_2020_04', 'aic_2019_09', 'aic_2020_04')
 writematrix(output_marginal_2019_09,'./results/output_marginal_2019_09.csv') 
 writematrix(output_marginal_2020_04,'./results/output_marginal_2020_04.csv') 
 writematrix(output_diff,'./results/output_diff.csv') 

@@ -2,7 +2,6 @@
 % L2 error rate as n changes
 clear
 
-cd 'C:\phd4\network yuan\beta-model\github-record'
 rng(2608);
 for TrueBetaSetting = 1:6
 switch(TrueBetaSetting)
@@ -154,7 +153,6 @@ for(TrueBetaSetting = 1:6)
 	xlim([1 length(n_vec)]);  xticks(1:length(n_vec));  xticklabels(n_vec);
 	a = get(gca,'XTickLabel');  
 	set(gca,'XTickLabel',a,'fontsize',font_size)
-	% set(gca,'XTickLabelMode','auto')
 	ylabel('Log(time)','fontsize',font_size);
 	legend([plot1.mainLine,plot2.mainLine], 'Gradient','Newton','location','northwest');
 	plot1.mainLine.MarkerSize = MarkerSize;  plot2.mainLine.MarkerSize = MarkerSize;

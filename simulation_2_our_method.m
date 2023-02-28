@@ -64,6 +64,6 @@ for lambda = lambdalist
         testerror(k) = mean(classifi~=classifi_true);
     end
     
-    save(sprintf("./results/l2result_%d_%d_sparse.mat",n,floor(lambda)),'error1','error2','error3','testerror','timerecord');
+    save(sprintf("./results/l2result_%d_sparse_%d.mat",n,floor(lambda)),'error1','error2','error3','testerror','timerecord');
 end
 end

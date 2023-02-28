@@ -63,7 +63,6 @@ for TrueBetaSetting = TrueBetaSettinglist
     
     
     fig = figure('visible','on');
-    % figure('visible','on');
     plot1 = plot(log(LambdaRange+1), print_Newton_TuningCriterion2, 'k--o');
     hold on;
     plot2 = plot(log(LambdaRange+1), Newton_TrueL2Loss, 'b--x');
