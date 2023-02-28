@@ -1,4 +1,0 @@
-Region & Other & China & US & UK & EU & JpKr & India \\\hline
-Entry count & 47240 & 5187 & 13347 & 4127 & 9870 & 2131 & 1267\\
-mean($\hat\beta_\lambda$) & -5.425 & -4.422 & -4.473 & -4.592 & -4.554 & -4.507 & -4.755 \\
-std($\hat\beta_\lambda$) & (1.416) & (1.019) & (1.108) & (1.101) & (1.083) & (1.043) & (1.162) \\\hline

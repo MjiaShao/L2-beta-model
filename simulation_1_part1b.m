@@ -38,7 +38,7 @@ Newton_relative_error_mat = [];
 font_size = 20;
 
 % REMEMBER TO CHANGE NEXP BACK TO 100 LATER
-Nexp = 3;
+Nexp = 100;
 
 
 for(n_index = 1:length(n_vec))
