@@ -40,13 +40,13 @@ Before running our code, please:
 1. Place all coding files in main working folder, and create two subfolders named 'results','plots','data' and 'parameters';
 2. Place the data files in a subfolder named 'data'.
 
-<h3>To reproduce simulations 1 results in Section 5.1:</h3>
+<h3>To reproduce simulation 1 results in Section 5.1:</h3>
 
 1. Run 'simulation_1_part1a.m' to reproduce Row 1 of Figure 1;
 2. Run 'simulation_1_part1b.m' to reproduce Row 2 & 3 of Figure 1;
 2. Run 'simulation_1_part2.m' to reproduce Figure 2 & 3.
 
-<h3>To reproduce simulations 2 results in Section 5.2:</h3>
+<h3>To reproduce simulation 2 results in Section 5.2:</h3>
 
 1. Run 'parameters.m' to prepare network setting for all methods;
 2. Run 'simulation_2_our_method.m' to reproduce simulation results by our method;
@@ -55,7 +55,7 @@ Before running our code, please:
 5. Run 'plot_simulation2_part1.R' to reproduce Row 1 of Figure 4;
 6. Run 'plot_simulation2_part2.R' to reproduce Row 2 of Figure 4.
 
-<h3>To reproduce simulations 3 results in Section 5.3:</h3>
+<h3>To reproduce simulation 3 results in Section 5.3:</h3>
 
 1. Run 'simulation_3.m' to reproduce Row 1 of Figure 5.
 
