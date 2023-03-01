@@ -9,7 +9,7 @@ Each simulation/data example has its own main file.  See details below.
 
 
 <h2>Contents:</h2>
-This README file contains step-by-step instructions on how to reproduce the simulation results in Main Paper.
+This README file contains step-by-step instructions on how to reproduce the simulation and data example results in Main Paper.
 
 
 <h2>Remarks:</h2>
