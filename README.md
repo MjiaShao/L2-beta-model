@@ -84,7 +84,7 @@ Before running our code, please:
 
 <h3>To reproduce results in Section 7:</h3>
 
-1. Run 'generate_tracy_widom_variables.R' to generate random variable from Tracy-Widom distribution with index 1 using R package 'RMTstat'. The results will saved as 'tracy-widom-distribution.txt';
+1. Run 'generate_tracy_widom_variables.R' to generate random variable from Tracy-Widom distribution with index 1 using R package 'RMTstat'. The results will be saved as 'tracy-widom-distribution.txt';
 2. Run 'goodness_of_fit.m' and 'plot_goodness_of_fit_test.m' to reproduce Figure 9. 
 
 
