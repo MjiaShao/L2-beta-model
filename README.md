@@ -76,9 +76,9 @@ Before running our code, please:
 
 <h3>To reproduce data example 2b results in Section 6.2.2:</h3>
 
-1. Preparation: search https://dj2taa9i652rf.cloudfront.net/ and save data in 'covid_knowledge_graph/csv/nodes' and 'covid_knowledge_graph/csv/edges' into local 'data/AWS-csv/nodes' and 'data/AWS-csv/edges' respectively;
+1. Preparation: open https://dj2taa9i652rf.cloudfront.net/ and download data in 'covid_knowledge_graph/csv/nodes' and 'covid_knowledge_graph/csv/edges'; save them to local folder paths 'data/AWS-csv/nodes' and 'data/AWS-csv/edges' respectively;
 2. Run 'data_example2_aws_preprocessing.py' to preprocess data and save them as 'deg_vec.txt' in 'data' folder;
-3. Run 'data_example2_aws_beta_esti.m' and get results for the next steps;(We use gradient method in this step and it might run for a long time to ensure convergence of estimation. We suggest to run this file in the computing server.)
+3. Run 'data_example2_aws_beta_esti.m' and get results for the next steps; (We used gradient method in this step and please run it for sufficient number of iterations to ensure convergence. We suggest running this file on a computing server.)
 4. Run 'plot_data_example2_aws.m' to reproduce right plots 1 & 2 in Figure 7;
 5. Run 'data_example2_aws_concept_table.py' and 'data_example2_aws_concept_table_print.m' to reproduce Table 7. 
 
