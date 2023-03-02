@@ -14,7 +14,7 @@ This README file contains step-by-step instructions on how to reproduce the simu
 
 <h2>Remarks:</h2>
 <ul>
-  <li> The original coding files for implementing [<i>Chen et al. (2021)</i>](https://doi.org/10.1111/rssb.12444) and [<i>Stein and Leng (2020)</i>](https://arxiv.org/abs/2010.13604) in 'simulation_2_chen.R' and 'simulation_2_stein.R' are not included in this repository.  Please contact the authors of those papers to request code.
+  <li> The original coding files for implementing <a href="https://doi.org/10.1111/rssb.12444"><i>Chen et al. (2021)</i></a> and <a href="https://arxiv.org/abs/2010.13604"><i>Stein and Leng (2020)</i></a> in 'simulation_2_chen.R' and 'simulation_2_stein.R' are not included in this repository.  Please contact the authors of those papers to request code.
 </ul>
 
 
