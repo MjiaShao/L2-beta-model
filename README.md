@@ -1,12 +1,23 @@
 # L2-beta-model
 
-Each simulation/data example has its own main file.  See details below.
+Each simulation/data example has its own main file.  See the details below.
 
 <h2>Reference:</h2>
 
 * <a href="https://www.asc.ohio-state.edu/zhang.7824/L2BetaModel.pdf">L-2 regularized maximum likelihood for $\beta$-model in large and sparse networks</a><br />
 <i>Meijia Shao, Yu Zhang, Qiuping Wang, Yuan Zhang, Jing Luo and Ting Yan</i><br>
 
+Citation:
+```bibtex
+@article{shao2023L2,
+    AUTHOR = {Shao, Meijia and Zhang, Yu and Wang, Qiuping and Zhang, Yuan and Luo, Jing and Yan Ting},
+     TITLE = {L-2 regularized maximum likelihood for $\beta$-model in large and sparse networks},
+   JOURNAL = {ArXiv preprint arXiv:2110.11856},
+      YEAR = {2023},
+}
+
+
+```
 
 <h2>Contents:</h2>
 This README file contains step-by-step instructions on how to reproduce the simulation and data example results in Main Paper.
