@@ -20,7 +20,7 @@ Citation:
 ```
 
 <h2>Contents:</h2>
-This README file contains step-by-step instructions on how to reproduce the simulation and data example results in Main Paper.
+This README file contains step-by-step instructions on how to reproduce the simulation and data example results in the <a href="https://www.asc.ohio-state.edu/zhang.7824/L2BetaModel.pdf">Main Paper</a>.
 
 
 <h2>Remarks:</h2>
