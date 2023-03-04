@@ -10,7 +10,7 @@ Each simulation/data example has its own main file.  See the details below.
 Citation:
 ```bibtex
 @article{shao2023L2,
-    AUTHOR = {Shao, Meijia and Zhang, Yu and Wang, Qiuping and Zhang, Yuan and Luo, Jing and Yan Ting},
+    AUTHOR = {Shao, Meijia and Zhang, Yu and Wang, Qiuping and Zhang, Yuan and Luo, Jing and Yan, Ting},
      TITLE = {L-2 regularized maximum likelihood for $\beta$-model in large and sparse networks},
    JOURNAL = {ArXiv preprint arXiv:2110.11856},
       YEAR = {2023},
