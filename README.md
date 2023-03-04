@@ -4,7 +4,7 @@ Each simulation/data example has its own main file.  See details below.
 
 <h2>Reference:</h2>
 
-* L-2 regularized maximum likelihood for $\beta$-model in large and sparse networks<br />
+* <a href="https://www.asc.ohio-state.edu/zhang.7824/L2BetaModel.pdf">L-2 regularized maximum likelihood for $\beta$-model in large and sparse networks</a><br />
 <i>Meijia Shao, Yu Zhang, Qiuping Wang, Yuan Zhang, Jing Luo and Ting Yan</i><br>
 
 
