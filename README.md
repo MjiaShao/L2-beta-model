@@ -61,8 +61,8 @@ Before running our code, please:
 
 1. Run 'parameters.m' to prepare network setting for all methods;
 2. Run 'simulation_2_our_method.m' to reproduce simulation results by our method;
-3. Run 'simulation_2_stein.R' to reproduce simulation results by Stein and Leng (2020)'s method;  (Please request the code for Stein and Leng (2020) from its authors.)
-4. Run 'simulation_2_chen.R' to reproduce simulation results by Chen et al. (2021)'s method;    (Please request the code for Chen et al. (2021) from its authors.)
+3. Run 'simulation_2_stein.R' to reproduce simulation results by Stein and Leng (2020)'s method;  <br><b>(Please request the code for Stein and Leng (2020) from its authors and place it under the working directory.)</b>
+4. Run 'simulation_2_chen.R' to reproduce simulation results by Chen et al. (2021)'s method;    <br><b>(Please request the code for Chen et al. (2021) from its authors and place it under the working directory.)</b>
 5. Run 'plot_simulation2_part1.R' to reproduce Row 1 of Figure 4;
 6. Run 'plot_simulation2_part2.R' to reproduce Row 2 of Figure 4.
 
